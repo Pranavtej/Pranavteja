@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- =======================================================
   * Template Name: MyResume - v4.3.0
@@ -420,7 +420,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
@@ -551,14 +550,11 @@
     <!-- ======= Testimonials Section =======--
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Testimonials</h2>
         </div>
-
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -597,7 +593,6 @@
                 </p>
               </div>
             </div>- End testimonial item --
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -610,7 +605,6 @@
                 </p>
               </div>
             </div><!-- End testimonial item --
-
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -623,11 +617,9 @@
                 </p>
               </div>
             </div><!-- End testimonial item --
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </section><!-- End Testimonials Section -->
 
@@ -671,20 +663,20 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="javascript:sendemail()" method="post" role="form" class="">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="Name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="Email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -746,6 +738,40 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function sendemail() {
+        var name = $('#Name').val();
+        var email = $('#Email').val();
+        var message = $('#message').val();
+        var sub = $('#subject').val();
+
+        var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message + '<br>sub:'+sub ;
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Port: 2525,
+            Username : "pranavteja10@gmail.com",
+            Password : "724CCB1B94393930766884615D73E8962DDC",
+            To : 'pranav_mcr@srkrec.edu.in',
+            From : "pranavteja10@gmail.com",
+            Subject : "subject",
+            Body : Body,
+        }).then(
+            message => {
+                //console.log (message);
+                if (message == 'OK') {
+                    // window.location.replace("thankyou.html")
+                    alert("mail sent successfully")
+                }
+                else {
+                     console.error(message);
+                    // window.location.replace("error.html")
+                    alert("mail not sent successfully")
+                }
+            }
+        );
+    }
+</script>
 
 </body>
 
