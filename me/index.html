@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Website</title>
+    <style>
+        iframe {
+            width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Embedded Website</h1>
+
+    <iframe id="embeddedFrame" src="https://bento.me/pranavteja" frameborder="0"></iframe>
+
+    <script>
+        // Adjust the height of the iframe based on its content
+        function resizeIframe() {
+            var iframe = document.getElementById('embeddedFrame');
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+
+        // Resize the iframe when the content inside it changes (e.g., after the page has loaded)
+        document.getElementById('embeddedFrame').onload = resizeIframe;
+
+        // Optionally, you can also call resizeIframe() at specific intervals or in response to user actions.
+    </script>
+
+</body>
+</html>
