@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "INIT_CWD=$PWD next build"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
