@@ -17,7 +17,7 @@ const projects = [
     role: "Backend Developer",
     description:
       "Collaborated with Dr. A. Naveen, Founder of My Ally, to implement an automated accounting system, reducing manual workload by 90%.",
-    link: { href: "https://domainsg.pt", label: "domainsg.pt" },
+    link: { href: "https://myally.ai", label: "myally.ai" },
     from : "April ",
     to :  "July 2023",
     logo: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/rf0xa2kvnxjj0gsaws7y",
