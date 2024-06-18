@@ -6,7 +6,7 @@ const projects = [
     name: "Inncircles Arena",
     role : "Product Developer",
     description:
-      "",
+      "Contributing to the scalable microservices with Node.js, automated CI/CD pipelines, and built client onboarding platform. Contributed to mobile app development with React Native and core product modules, improving system efficiency and client experience.",
     link: { href: "https://inncirclesarena.com", label: "inncirclesarena.com" },
     from : "July 2024",
     to : "Present",
@@ -16,7 +16,7 @@ const projects = [
     name: "Catalog.fi (Ren Protocol)",
     role : "Software Developer Intern",
     description:
-      "Contributing to the advancement of the crypto wallet through React.js, TypeScript,Nodejs, Tailwind CSS.",
+      "Contributed to the advancement of the crypto wallet through React.js, TypeScript,Nodejs, Tailwind CSS.",
     link: { href: "https://catalog.fi", label: "catalog.fi" },
     from : "Oct 2023",
     to : "Mar 2024",
