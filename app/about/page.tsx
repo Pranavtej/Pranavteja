@@ -3,14 +3,14 @@ import Card from "../components/card";
 
 const projects = [
   {
-    name: "Inncircles Arena",
+    name: "Inncircles",
     role : "Product Developer",
     description:
       "Contributing to the scalable microservices with Node.js, automated CI/CD pipelines, and built client onboarding platform. Contributed to mobile app development with React Native and core product modules, improving system efficiency and client experience.",
     link: { href: "https://inncirclesarena.com", label: "inncirclesarena.com" },
     from : "July 2024",
     to : "Present",
-    logo: "https://play-lh.googleusercontent.com/wqHPfi_OGp8Xn0C443NHPLGOPDBCtrLSA7RyXE9cvCQVc3oy2M8lNVA9Ecr2_ucxpoI=w240-h480-rw" 
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQH2atLOtsDBsg/company-logo_200_200/company-logo_200_200/0/1730198147125/inncirclesarena_logo?e=1739404800&v=beta&t=BFLrf4-kPFY8GcjShR-c-CnJbiZjZmfDgdfM6jvcPz0"  
    },
   {
     name: "Catalog.fi (Ren Protocol)",
