@@ -7,7 +7,7 @@ const projects = [
     role : "Product Developer",
     description:
       "Contributing to the scalable microservices with Node.js, automated CI/CD pipelines, and built client onboarding platform. Contributed to mobile app development with React Native and core product modules, improving system efficiency and client experience.",
-    link: { href: "https://inncirclesarena.com", label: "inncirclesarena.com" },
+    link: { href: "https://inncircles.com", label: "inncircles.com" },
     from : "July 2024",
     to : "Present",
     logo: "https://inncircles.com/favicon.ico"  
