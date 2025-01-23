@@ -2,7 +2,18 @@ import { Link } from "lucide-react";
 import Card from "../components/card";
 
 const projects = [
+  {
+    "name": "Ayoohoo Family Health Game",
+    "description": "Designed and developed a gamification platform promoting healthy habits in children through interactive gameplay, including daily challenges, rewards, and habit-tracking features.Drove rapid adoption, achieving 5,000 monthly active users within the first month, showcasing its strong engagement and social impact.",
+    "link": {
+      "href": "https://games.ayoohoo.com",
+      "label": "games.ayoohoo.com"
+    },
+    "technology_used": ["AngularJS", "NodeJS", "MongoDB", "TailwindCSS", "AWS"],
 
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5acS7kkTdLmKD3waTYJhluCyTymyp13ZJg&s",
+    "year": 2024
+  },
   {
     "name": "Destination Changer",
     "description": "A Web app that allows users to shorten URLs and track the number of clicks on the shortened URL. The app also provides a QR code for the shortened URL.",
