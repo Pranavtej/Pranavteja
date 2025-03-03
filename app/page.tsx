@@ -17,11 +17,11 @@ export default function Home() {
         height={60}
         className="rounded-full"
       />
-      <h1 className="text-5xl font-bold tracking-tight">
+      {/* <h1 className="text-5xl font-bold tracking-tight">
         Developer , Innovator , Mentor.
-      </h1>
+      </h1> */}
       <p className="mt-6 text-base text-zinc-600">
-        Hey, I'm Pranav. I'm a Product Developer  at{" "}
+        Hey, I'm Pranav. I'm a Software Developer  at{" "}
         <a
           href="https://inncircles.com/"
           target="_blank"

@@ -4,7 +4,7 @@ import Card from "../components/card";
 const projects = [
   {
     name: "Inncircles",
-    role : "Product Developer",
+    role : "Software Developer",
     description:
       "Contributing to the scalable microservices with Node.js, automated CI/CD pipelines, and built client onboarding platform. Contributed to mobile app development with React Native and core product modules, improving system efficiency and client experience.",
     link: { href: "https://inncircles.com", label: "inncircles.com" },
