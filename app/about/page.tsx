@@ -10,7 +10,7 @@ const projects = [
     link: { href: "https://inncircles.com", label: "inncircles.com" },
     from : "July 2024",
     to : "Present",
-    logo: "https://inncircles.com/favicon.ico"  
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQH2atLOtsDBsg/company-logo_200_200/company-logo_200_200/0/1730198147125/inncirclesarena_logo?e=1748476800&v=beta&t=agTLyl_Qy28gC1X6qP-WgUvXKzvda1tbStZ3Dz0JL6s"  
    },
   {
     name: "Catalog.fi (Ren Protocol)",
