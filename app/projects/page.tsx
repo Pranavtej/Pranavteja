@@ -3,6 +3,18 @@ import Card from "../components/card";
 
 const projects = [
   {
+    "name": "InnDoc AI",
+    "description": "Understand, analyze, and summarize construction documents like never before with InnDoc AI",
+    "link": {
+      "href": "https://www.inncircles.ai/inn-doc-ai/",
+      "label": "inncircles.ai/inn-doc-ai"
+    },
+    "technology_used": [],
+
+    "logo": "https://doc.inncircles.ai/images/logos/favicon.ico",
+    "year": 2025
+  },
+  {
     "name": "Ayoohoo Family Health Game",
     "description": "Designed and developed a gamification platform promoting healthy habits in children through interactive gameplay, including daily challenges, rewards, and habit-tracking features.Drove rapid adoption, achieving 5,000 monthly active users within the first month, showcasing its strong engagement and social impact.",
     "link": {
