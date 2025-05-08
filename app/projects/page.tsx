@@ -4,7 +4,7 @@ import Card from "../components/card";
 const projects = [
   {
     "name": "InnDoc AI",
-    "description": "Understand, analyze, and summarize construction documents like never before with InnDoc AI",
+    "description": "InnDoc AI helps construction teams to understand their documents, analyze content, and generate actionable summaries. It automates compliance checks, extracts key information, and compares multiple documents to identify differences. It’s an all-in-one, AI-powered document analyzer designed for maximum efficiency and accuracy.",
     "link": {
       "href": "https://www.inncircles.ai/inn-doc-ai/",
       "label": "inncircles.ai/inn-doc-ai"
