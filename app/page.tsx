@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <div className="mx-5 sm:mx-0 flex flex-col space-y-5 max-w-xl">
       <img
-        src="https://avatars.githubusercontent.com/u/86045290?v=4"
+        src="https://media.licdn.com/dms/image/v2/D5603AQGE4ScNgqWlDg/profile-displayphoto-crop_800_800/B56ZrLpReqJQAI-/0/1764353186309?e=1766016000&v=beta&t=tmn_cWDX8RlJxnrDMnGtvZXSJRoTRypjaRKbvwX3HGc"
         alt="Profile Picture"
         width={60}
         height={60}
