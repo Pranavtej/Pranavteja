@@ -16,7 +16,7 @@ export default function NavBar() {
         {segment && (
           <Link href="/">
             <img
-              src="hhttps://media.licdn.com/dms/image/v2/D5603AQGE4ScNgqWlDg/profile-displayphoto-scale_400_400/B56ZrLpReqJQAg-/0/1764353186388?e=1773273600&v=beta&t=EnM1W0adjvMif7cHF5NRh9L3pYx3QGEV16dCyi1vSEI"
+              src="https://media.licdn.com/dms/image/v2/D5603AQGE4ScNgqWlDg/profile-displayphoto-scale_400_400/B56ZrLpReqJQAg-/0/1764353186388?e=1773273600&v=beta&t=EnM1W0adjvMif7cHF5NRh9L3pYx3QGEV16dCyi1vSEI"
               alt="Profile Picture"
               width={40}
               height={40}
